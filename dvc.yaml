@@ -18,6 +18,7 @@ stages:
     cmd: python src/evaluate.py
     deps:
     - data/processed.csv
-    - models
+    - models/model.joblib
     - src/evaluate.py
-
+    outs:
+    - reports/metrics.json
