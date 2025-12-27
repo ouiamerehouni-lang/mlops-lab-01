@@ -18,7 +18,7 @@ Ce script :
 Ce module est typiquement utilisé comme étape "prétraitement" d’un pipeline
 MLOps avant l’entraînement du modèle.
 """
-
+print("Préparation des données en cours...")
 from pathlib import Path
 from typing import Final
 
